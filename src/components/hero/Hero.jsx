@@ -45,7 +45,7 @@ function Hero() {
 
         <p className="mt-6 max-w-xl text-slate-400 leading-8">
           Passionate Frontend Developer and IT Trainer with experience in
-          React, WordPress, JavaScript, PHP and modern web technologies.
+          React, MySQL, JavaScript, PHP and modern web technologies.
           I love creating beautiful, responsive and user-friendly websites.
         </p>
 
