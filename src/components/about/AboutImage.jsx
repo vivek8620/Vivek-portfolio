@@ -5,12 +5,12 @@ function AboutImage() {
     <div
       className="
         relative
-        w-[280px]
-        h-[390px]
-        sm:w-[320px]
-        sm:h-[450px]
-        lg:w-[360px]
-        lg:h-[500px]
+        w-[240px]
+        h-[544px]
+        sm:w-[280px]
+        sm:h-[635px]
+        lg:w-[310px]
+        lg:h-[700px]
         flex
         items-center
         justify-center
@@ -60,12 +60,12 @@ function AboutImage() {
       <div
         className="
           relative
-          w-[272px]
-          h-[382px]
-          sm:w-[312px]
-          sm:h-[442px]
-          lg:w-[352px]
-          lg:h-[492px]
+          w-[232px]
+          h-[536px]
+          sm:w-[272px]
+          sm:h-[627px]
+          lg:w-[302px]
+          lg:h-[692px]
           rounded-[32px]
           p-[3px]
           overflow-hidden
@@ -92,6 +92,7 @@ function AboutImage() {
               w-full
               h-full
               object-cover
+              object-center
             "
           />
         </div>
