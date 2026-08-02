@@ -3,7 +3,6 @@ import { FaCheckCircle } from "react-icons/fa";
 function AboutContent() {
   return (
     <div>
-
       {/* Small Heading */}
       <p
         className="
@@ -29,13 +28,10 @@ function AboutContent() {
         "
       >
         Crafting Digital
-
         <br />
-
         <span className="bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
           Experiences
         </span>{" "}
-
         That Matter
       </h2>
 
@@ -49,27 +45,21 @@ function AboutContent() {
           text-slate-300
         "
       >
-        I'm Vivek Tiwari — a passionate IT Trainer and Full Stack Web
-        Developer dedicated to building beautiful, functional web
-        experiences. With 1+ years of hands-on experience I specialize in
-        frontend development, WordPress solutions and mentoring the next
-        generation of developers.
+        I'm Vivek Tiwari — a passionate IT Trainer and Full Stack Web Developer
+        dedicated to building beautiful, functional web experiences. With 1+
+        years of hands-on experience, I specialize in React.js, PHP, Tailwind
+        CSS, and .NET Development.
       </p>
 
       {/* Bullet Points */}
       <div className="mt-7 space-y-5">
-
         {[
           "1+ Years of Professional Experience in Web Development",
-          "IT Trainer at CADD Centre — mentoring students every day",
-          "Proficient in Frontend, WordPress, PHP Development",
+          "I Learnt Mearn Full Stack Web Development from Ducat IT Traning School🏡(India's first Skill building School ",
+          " Hands-on Experience with Frontend Development, REST APIs, Database Integration, and React Development",
           "Quick Learner · Creative Problem Solver · Team Player",
         ].map((item) => (
-
-          <div
-            key={item}
-            className="flex items-start gap-3 md:gap-4"
-          >
+          <div key={item} className="flex items-start gap-3 md:gap-4">
             <FaCheckCircle
               className="
                 mt-1
@@ -79,15 +69,10 @@ function AboutContent() {
               "
             />
 
-            <p className="text-slate-300">
-              {item}
-            </p>
+            <p className="text-slate-300">{item}</p>
           </div>
-
         ))}
-
       </div>
-
     </div>
   );
 }
