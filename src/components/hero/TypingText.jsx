@@ -9,8 +9,6 @@ function TypingText() {
           2000,
           "I'm a Backend Developer",
           2000,
-          "React Developer",
-          2000,
 
         ]}
         wrapper="span"

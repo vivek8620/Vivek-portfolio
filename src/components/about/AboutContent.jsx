@@ -51,7 +51,7 @@ function AboutContent() {
       >
         I'm Vivek Tiwari — a passionate IT Trainer and Full Stack Web
         Developer dedicated to building beautiful, functional web
-        experiences. With 2+ years of hands-on experience I specialize in
+        experiences. With 1+ years of hands-on experience I specialize in
         frontend development, WordPress solutions and mentoring the next
         generation of developers.
       </p>
@@ -60,7 +60,7 @@ function AboutContent() {
       <div className="mt-7 space-y-5">
 
         {[
-          "2+ Years of Professional Experience in Web Development",
+          "1+ Years of Professional Experience in Web Development",
           "IT Trainer at CADD Centre — mentoring students every day",
           "Proficient in Frontend, WordPress, PHP Development",
           "Quick Learner · Creative Problem Solver · Team Player",

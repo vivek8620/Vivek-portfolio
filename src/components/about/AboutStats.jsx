@@ -1,7 +1,7 @@
 function AboutStats() {
   const stats = [
-    { number: "25+", label: "PROJECTS" },
-    { number: "2+", label: "YRS EXP." },
+    { number: "12+", label: "PROJECTS" },
+    { number: "1+", label: "YRS EXP." },
     { number: "14+", label: "TECH" },
     { number: "5+", label: "CERTS" },
     { number: "200+", label: "STUDENTS" },

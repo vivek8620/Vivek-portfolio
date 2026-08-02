@@ -3,9 +3,7 @@ import {
     FaCss3Alt,
     FaReact,
     FaPhp,
-    FaJava,
     FaGithub,
-    FaWordpress,
     FaGitAlt,
     FaCode,
 } from "react-icons/fa";
@@ -14,9 +12,12 @@ import {
     SiJavascript,
     SiBootstrap,
     SiMysql,
-    SiFigma,
-    SiShopify,
+    SiTailwindcss,
+    SiJquery,
+    SiDotnet,
 } from "react-icons/si";
+
+import { DiPhotoshop } from "react-icons/di";
 
 
 export const skills = [
@@ -25,11 +26,11 @@ export const skills = [
         name: "HTML5",
         glow: "#ff5722",
     },
-    {
-        icon: FaCss3Alt,
-        name: "CSS3",
-        glow: "#2965f1",
-    },
+     {
+        icon: SiTailwindcss,
+        name: "Tailwind CSS",
+        glow: "#06b6d4",
+    },  
     {
         icon: SiJavascript,
         name: "JavaScript",
@@ -45,15 +46,27 @@ export const skills = [
         name: "React JS",
         glow: "#38bdf8",
     },
+   
+   
+    {
+        icon: SiJquery,
+        name: "jQuery",
+        glow: "#0769ad",
+    },
+     {
+        icon: FaCss3Alt,
+        name: "CSS3",
+        glow: "#2965f1",
+    },
     {
         icon: FaPhp,
         name: "PHP",
         glow: "#8892be",
     },
     {
-        icon: FaJava,
-        name: "Java",
-        glow: "#f59e0b",
+        icon: SiDotnet,
+        name: ".NET",
+        glow: "#512bd4",
     },
     {
         icon: SiMysql,
@@ -61,19 +74,9 @@ export const skills = [
         glow: "#4f9ed8",
     },
     {
-        icon: FaWordpress,
-        name: "WordPress",
-        glow: "#21759b",
-    },
-    {
-        icon: SiFigma,
-        name: "Figma",
-        glow: "#ff5b2d",
-    },
-    {
-        icon: SiShopify,
-        name: "Shopify",
-        glow: "#95bf47",
+        icon: DiPhotoshop,
+        name: "Photoshop",
+        glow: "#31a8ff",
     },
     {
         icon: FaCode,
