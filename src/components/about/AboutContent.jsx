@@ -1,6 +1,34 @@
-import { FaCheckCircle } from "react-icons/fa";
+import {
+  FaAward,
+  FaGraduationCap,
+  FaLayerGroup,
+  FaRocket,
+} from "react-icons/fa";
 
 function AboutContent() {
+  const features = [
+    {
+      icon: FaAward,
+      text: "1+ Years of Professional Experience in Web Development",
+      iconColor: "text-cyan-400",
+    },
+    {
+      icon: FaGraduationCap,
+      text: "I Learnt MERN Full Stack Web Development from Ducat IT Training School (India's first Skill building School)",
+      iconColor: "text-purple-400",
+    },
+    {
+      icon: FaLayerGroup,
+      text: "Hands-on Experience with Frontend Development, REST APIs, Database Integration, and React Development",
+      iconColor: "text-sky-400",
+    },
+    {
+      icon: FaRocket,
+      text: "Quick Learner · Creative Problem Solver · Team Player",
+      iconColor: "text-yellow-400",
+    },
+  ];
+
   return (
     <div>
       {/* Small Heading */}
@@ -51,27 +79,28 @@ function AboutContent() {
         CSS, and .NET Development.
       </p>
 
-      {/* Bullet Points */}
+      {/* Bullet Points with Small Icons */}
       <div className="mt-7 space-y-5">
-        {[
-          "1+ Years of Professional Experience in Web Development",
-          "I Learnt Mearn Full Stack Web Development from Ducat IT Traning School🏡(India's first Skill building School ",
-          " Hands-on Experience with Frontend Development, REST APIs, Database Integration, and React Development",
-          "Quick Learner · Creative Problem Solver · Team Player",
-        ].map((item) => (
-          <div key={item} className="flex items-start gap-3 md:gap-4">
-            <FaCheckCircle
-              className="
-                mt-1
-                shrink-0
-                text-cyan-400
-                text-lg
-              "
-            />
+        {features.map((feature, index) => {
+          const Icon = feature.icon;
+          return (
+            <div key={index} className="flex items-start gap-3 md:gap-4">
+              <Icon
+                className={`
+                  mt-1
+                  shrink-0
+                  ${feature.iconColor}
+                  text-lg
+                  md:text-xl
+                `}
+              />
 
-            <p className="text-slate-300">{item}</p>
-          </div>
-        ))}
+              <p className="text-slate-300 text-sm md:text-base leading-relaxed">
+                {feature.text}
+              </p>
+            </div>
+          );
+        })}
       </div>
     </div>
   );

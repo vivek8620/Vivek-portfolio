@@ -6,11 +6,11 @@ function AboutImage() {
       className="
         relative
         w-[280px]
-        h-[390px]
+        h-[420px]
         sm:w-[320px]
-        sm:h-[450px]
+        sm:h-[480px]
         lg:w-[360px]
-        lg:h-[500px]
+        lg:h-[540px]
         flex
         items-center
         justify-center
@@ -61,11 +61,11 @@ function AboutImage() {
         className="
           relative
           w-[272px]
-          h-[382px]
+          h-[412px]
           sm:w-[312px]
-          sm:h-[442px]
+          sm:h-[472px]
           lg:w-[352px]
-          lg:h-[492px]
+          lg:h-[532px]
           rounded-[32px]
           p-[3px]
           overflow-hidden
@@ -78,21 +78,21 @@ function AboutImage() {
 
         <div
           className="
-            w-full
-            h-full
-            rounded-[30px]
-            overflow-hidden
-            bg-[#0B1120]
-          "
+    w-full
+    h-full
+    rounded-[30px]
+    overflow-hidden
+    bg-[#0B1120]
+  "
         >
           <img
             src={aboutImage}
             alt="About"
             className="
-              w-full
-              h-full
-              object-cover
-            "
+      w-full
+      h-full
+      object-contain
+    "
           />
         </div>
       </div>
