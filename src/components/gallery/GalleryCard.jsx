@@ -4,7 +4,7 @@ function GalleryCard({ title, image }) {
       className="
         group
         relative
-        h-[450px]
+        h-[370px]
         overflow-hidden
         rounded-3xl
         border
