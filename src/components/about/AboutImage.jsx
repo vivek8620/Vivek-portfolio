@@ -79,6 +79,7 @@ function AboutImage() {
 
         <div
           className="
+            relative
             w-full
             h-full
             rounded-[30px]
@@ -96,6 +97,11 @@ function AboutImage() {
               object-center
             "
           />
+          {/* Theme Gradient Tint Overlay */}
+          <div className="absolute inset-0 bg-gradient-to-tr from-[#38bdf8]/25 via-transparent to-[#8b5cf6]/25 mix-blend-color pointer-events-none" />
+          {/* Dark Vignette to merge image edges with background */}
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_20%,#050816/50%)] pointer-events-none" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#050816]/80 via-transparent to-[#050816]/30 pointer-events-none" />
         </div>
       </div>
     </div>
