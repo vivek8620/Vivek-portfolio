@@ -76,7 +76,7 @@ function Loader() {
       />
 
       {/* Logo */}
-      <motion.h1
+      <motion.div
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{
           opacity: 1,
@@ -88,20 +88,10 @@ function Loader() {
           repeat: Infinity,
           ease: "easeInOut",
         }}
-        className="
-          relative
-          z-10
-          text-6xl
-          sm:text-7xl
-          lg:text-8xl
-          font-black
-          text-cyan-400
-          drop-shadow-[0_0_30px_#38bdf8]
-          text-center
-        "
+        className="relative z-10 flex justify-center items-center"
       >
-        VT
-      </motion.h1>
+        <img src="/logo.png" alt="Logo" className="w-48 h-48 object-contain drop-shadow-[0_0_25px_rgba(56,189,248,0.6)]" />
+      </motion.div>
 
       {/* Loading Text */}
       <motion.p

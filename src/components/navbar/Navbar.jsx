@@ -26,15 +26,19 @@ function Navbar() {
           justify-between
           px-4
           md:px-8
-          py-4
-          md:py-5
+          py-2
+          md:py-3
         "
       >
 
         {/* Logo */}
-        <h1 className="text-3xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
-          VT
-        </h1>
+        <a href="#home" className="flex items-center gap-3.5">
+          <img src="/logo.png" alt="Logo" className="w-18 h-18 object-contain drop-shadow-[0_0_10px_rgba(34,211,238,0.45)]" />
+          <span className="font-bold tracking-wider text-2xl font-display select-none">
+            <span className="bg-gradient-to-r from-cyan-400 to-sky-400 bg-clip-text text-transparent">VIVEK</span>
+            <span className="text-white hover:text-cyan-400 transition-colors duration-300 ml-2">TIWARI</span>
+          </span>
+        </a>
 
         {/* Desktop Navigation */}
         <ul className="hidden lg:flex items-center gap-8">
